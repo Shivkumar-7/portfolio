@@ -104,7 +104,7 @@ export const SkillsInfo = [
       img: hashedbitLogo,
       role: "Fullstack Developer",
       company: "Hashbit Innovation",
-      date: "April 2024 - Jun 2024",
+      date: "April 2025 - June 2025",
       desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
       skills: [
         "HTML",
