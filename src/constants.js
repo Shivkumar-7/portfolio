@@ -41,6 +41,7 @@ import svm12Logo from './assets/education_logo/svm12_logo.png';
 // Project Section Logo's
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
+import codedeckLogo from './assets/work_logo/codedeck.png';
 
 export const SkillsInfo = [
   {
@@ -174,8 +175,18 @@ export const SkillsInfo = [
       github: "https://github.com/codingmastr/Image-Search-App",
       webapp: "https://imagsearch.netlify.app/",
     },
-    {
+     {
       id: 1,
+      title: "Code Deck",
+      description:
+        "Developed a responsive online code editor supporting multiple programming languages.",
+      image: codedeckLogo,
+      tags: ["React JS", "CodeMirror", "Judge0", "API", "Javascript"],
+      github: "https://github.com/Shivkumar-7/Code_Deck",
+      webapp: "https://codedeck-rouge.vercel.app/",
+    },
+    {
+      id: 2,
       title: "Image Background Remover",
       description:
         "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
