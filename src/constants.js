@@ -42,6 +42,7 @@ import svm12Logo from './assets/education_logo/svm12_logo.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
 import codedeckLogo from './assets/work_logo/codedeck.png';
+import withmeLogo from './assets/work_logo/withme.png';
 
 export const SkillsInfo = [
   {
@@ -164,35 +165,46 @@ export const SkillsInfo = [
     },
   ];
   
-  export const projects = [
-    {
-      id: 0,
-      title: "Image Search App",
-      description:
-        "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-      image: imagesearchLogo,
-      tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Search-App",
-      webapp: "https://imagsearch.netlify.app/",
-    },
-     {
-      id: 1,
-      title: "Code Deck",
-      description:
-        "Developed a responsive online code editor supporting multiple programming languages.",
-      image: codedeckLogo,
-      tags: ["React JS", "CodeMirror", "Judge0", "API", "Javascript"],
-      github: "https://github.com/Shivkumar-7/Code_Deck",
-      webapp: "https://codedeck-rouge.vercel.app/",
-    },
-    {
-      id: 2,
-      title: "Image Background Remover",
-      description:
-        "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-      image: removebgLogo,
-      tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-      github: "https://github.com/Shivkumar-7/Image-Background-Remover",
-      webapp: "https://image-background-remover-navy.vercel.app/",
-    },
-  ];  
+// Projects Section
+export const projects = [
+  {
+    id: 0,
+    title: "Image Search App",
+    description:
+      "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
+    image: imagesearchLogo,
+    tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
+    github: "https://github.com/codingmastr/Image-Search-App",
+    webapp: "https://imagsearch.netlify.app/",
+  },
+  {
+    id: 1,
+    title: "Code Deck",
+    description:
+      "Developed a responsive online code editor supporting multiple programming languages. Features include multi-theme support, Judge0 integration for code execution, and saving code locally.",
+    image: codedeckLogo,
+    tags: ["React JS", "CodeMirror", "Judge0", "API", "Javascript"],
+    github: "https://github.com/Shivkumar-7/Code_Deck",
+    webapp: "https://codedeck-rouge.vercel.app/",
+  },
+  {
+    id: 2,
+    title: "Image Background Remover",
+    description:
+      "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
+    image: removebgLogo,
+    tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
+    github: "https://github.com/Shivkumar-7/Image-Background-Remover",
+    webapp: "https://image-background-remover-navy.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "WithMe_OR_NOT",
+    description:
+      "A MERN stack social matchmaking app where users can sign up, log in, view and update profiles, send/accept friend requests, and explore other users. Fully responsive and hosted on Vercel.",
+    image: withmeLogo, // 🆕 Logo for WithMe_OR_NOT
+    tags: ["MERN", "React JS", "Node JS", "Express", "MongoDB", "Tailwind CSS"],
+    github: "https://github.com/Shivkumar-7/WithMe_OR_NOT",
+    webapp: "https://withme-or-not-chi.vercel.app/login",
+  },
+];
