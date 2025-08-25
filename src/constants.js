@@ -169,13 +169,13 @@ export const SkillsInfo = [
 export const projects = [
   {
     id: 0,
-    title: "Image Search App",
+    title: "WithMe_OR_NOT",
     description:
-      "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-    image: imagesearchLogo,
-    tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-    github: "https://github.com/codingmastr/Image-Search-App",
-    webapp: "https://imagsearch.netlify.app/",
+      "A MERN stack social matchmaking app where users can sign up, log in, view and update profiles, send/accept friend requests, and explore other users. Fully responsive and hosted on Vercel.",
+    image: withmeLogo, // 🆕 Logo for WithMe_OR_NOT
+    tags: ["MERN", "React JS", "Node JS", "Express", "MongoDB", "Tailwind CSS"],
+    github: "https://github.com/Shivkumar-7/WithMe_OR_NOT",
+    webapp: "https://withme-or-not-chi.vercel.app/login",
   },
   {
     id: 1,
@@ -198,13 +198,13 @@ export const projects = [
     webapp: "https://image-background-remover-navy.vercel.app/",
   },
   {
-    id: 3,
-    title: "WithMe_OR_NOT",
+   id: 3,
+    title: "Image Search App",
     description:
-      "A MERN stack social matchmaking app where users can sign up, log in, view and update profiles, send/accept friend requests, and explore other users. Fully responsive and hosted on Vercel.",
-    image: withmeLogo, // 🆕 Logo for WithMe_OR_NOT
-    tags: ["MERN", "React JS", "Node JS", "Express", "MongoDB", "Tailwind CSS"],
-    github: "https://github.com/Shivkumar-7/WithMe_OR_NOT",
-    webapp: "https://withme-or-not-chi.vercel.app/login",
+      "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
+    image: imagesearchLogo,
+    tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
+    github: "https://github.com/codingmastr/Image-Search-App",
+    webapp: "https://imagsearch.netlify.app/",
   },
 ];
